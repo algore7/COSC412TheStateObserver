@@ -1,0 +1,48 @@
+.ulDefault {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navBarList a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  float: left;
+  
+  
+}
+
+.navBarList a:hover {
+	background-color: red;
+}
+
+.navBarList a.active {
+	background-color: red;
+	color: white;
+}
+
+body{
+	background-color: gray;
+}
+
+.welcome{
+	background-color: black;
+	border: solid;
+	border-color: red;
+	padding: 5px;
+	position: fixed;
+	top: 15%;
+	margin-left:33%;
+	float:left;
+}
+
+.welText{
+	text-align: center;
+	color: white;
+	padding: 5px;
+}
