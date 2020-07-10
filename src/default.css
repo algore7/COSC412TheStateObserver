@@ -41,8 +41,80 @@ body{
 	float:left;
 }
 
+
 .welText{
 	text-align: center;
 	color: white;
 	padding: 5px;
+}
+
+.headText{
+	text-decoration: underline;
+	size: 30px;
+	text-align: center;
+}
+
+.ctrList{
+	background-color: black;
+	border: solid;
+	border-color: red;
+	padding: 5px;
+	position: absolute;
+	float:left;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	grid-gap: 15px;
+	overflow: auto;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 15px;
+}
+
+.ctrList > div{
+	
+	text-align: center;
+	padding: 20px;
+}
+
+.ctrText{
+	
+	color: white;
+	text-align: center;
+	padding: 15px;
+	display: block;
+	
+}
+
+.abtTop{
+	background-color: black;
+	border: solid;
+	border-color: red;
+	padding: 5px;
+	margin-top: 3%;
+	margin-right: 40%;
+	margin-left:40%;
+	
+}
+.abtMid{
+	background-color: black;
+	border: solid;
+	border-color: red;
+	padding: 5px;
+	margin-top: 3%;
+	margin-right: auto;
+	margin-left:auto;
+	
+}
+.abtTextMid{
+	text-align: center;
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.abtText{
+	text-align: center;
+	color: white;
+	padding: 5px;
+	font-size: 30px;
 }
