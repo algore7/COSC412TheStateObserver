@@ -143,13 +143,26 @@ body{
 	border: solid;
 	border-color: red;
 	padding: 5px;
-	float: left;
+	float:left;
+	overflow:auto;
 }
 
 .ctrBody{
 	float: left;
 }
 
+.ctrBottom{
+	width:50%;
+}
+
 .ctrPgFix{
 	float:left;
+}
+
+.ctrPolit{
+	background-color: black;
+	border: solid;
+	border-color: red;
+	padding: 2px;
+	float: left;
 }
