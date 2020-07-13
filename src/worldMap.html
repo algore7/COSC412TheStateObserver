@@ -3,7 +3,29 @@
 <title>TheStateObserver|World Map</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="default.css"> 
+<link rel="stylesheet" href="default.css">
+<link href="jqvmap.css" media="screen" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="jquery.vmap.js"></script>
+<script type="text/javascript" src="maps/jquery.vmap.world.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      jQuery('#vmap').vectorMap(
+	  { map: 'world_en', 
+		onRegionClick: function(element, code, region)
+		{
+			var message = region;
+			if(message[0] == 'a' || 'b'|| 'c'|| 'd'||'e'||'f'||'g'||'h'||'i'||'j'||'k'||'l'||'m'){
+				window.open('A_M/'+ region + '.html');
+			}else{
+				window.open('N_Z/'+ region + '.html');
+			}
+			
+			
+		} });
+    });
+</script>
 <body>
 	<header>
 		<ul class='ulDefault'>
@@ -14,6 +36,7 @@
 			<li class='navBarList'><a href="about.html">About the Website</a></li>
 		</ul>
 	</header>
-	<h1>This is the world map page</h1>
+	<div id="vmap" style="width: auto; height: 650px;"></div>
+	
 </body>
 </html>
