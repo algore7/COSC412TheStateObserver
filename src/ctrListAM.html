@@ -189,6 +189,7 @@
 		<div >
 			<div ><a href='A_M/Kuwait.html' class='ctrText'>Kuwait</a></div >
 			<div ><a href='A_M/Kyrgyzstan.html' class='ctrText'>Kyrgyzstan</a></div >
+			<div ><a href='N_Z/Kosovo.html' class='ctrText'>Kosovo</a></div >
 			<div ><a href='A_M/LaoPeopleDemocraticRepublic.html' class='ctrText'>Lao People's Democratic Republic</a></div >
 			<div ><a href='A_M/Latvia.html' class='ctrText'>Latvia</a></div >
 			<div ><a href='A_M/Lebanon.html' class='ctrText'>Lebanon</a></div >
@@ -218,7 +219,6 @@
 			<div ><a href='A_M/Martinique.html' class='ctrText'>Martinique</a></div >
 			<div ><a href='A_M/Mauritania.html' class='ctrText'>Mauritania</a></div >
 			<div ><a href='A_M/Mauritius.html' class='ctrText'>Mauritius</a></div >
-			<div ><a href='A_M/Mayotte.html' class='ctrText'>Mayotte</a></div >
 			<div ><a href='A_M/Mexico.html' class='ctrText'>Mexico</a></div >
 		</div>
 		<div >
@@ -235,41 +235,5 @@
 			<div ><a href='A_M/Myanmar.html' class='ctrText'>Myanmar</a></div >
 		</div>
 	</div>
-	
-	<!---
-	<script>
-		function getName(){
-			const url = 'https://restcountries.eu/rest/v2/all'
-			var request = new XMLHttpRequest()
-			let ctrName = []
-			
-			request.open('GET', url, true)
-			request.onload = function () {
-				var data = JSON.parse(this.response)
-				if (request.status >= 200 && request.status < 400) {
-					data.forEach((movie) => {
-						//console.log(movie.name)
-						//document.getElementById("test1").innerHTML=movie.name;
-						ctrName.push(movie.name)
-						
-						//document.getElementById("test2").innerHTML=movie.name;
-					}) 
-				} else {
-					console.log('error')
-				}
-				document.getElementById("test1").innerHTML=ctrName;
-				//document.getElementById("test2").innerHTML=ctrName[1];
-			}
-			//console.log(ctrName)
-			request.send()
-			return ctrName;
-		}
-		
-		
-		let test = getName();
-		console.log(test);
-		document.getElementById("test1").innerHTML=test;
-	</script>
-	--->
 </body>
 </html>

@@ -1,0 +1,179 @@
+[	{"name":"Afghanistan", 
+	"governmentType":"Presidential Islamic Republic", 
+	"leaders":
+		{"exec":
+			{"name":"Ashraf Ghani",
+			"politicalParty":"Independent",
+			"nextElection":"2024"},
+		"viceexec":
+			[
+				{"name":"Amrullah Saleh", "politicalParty":"None"},
+				{"name":"Muhammad Sarwar Danish", "politicalParty":"None"}
+			]
+		}, 
+	"legislature":
+	{"name":"National Assembly", "houses":
+			[	
+			{"upperHouse":		
+				{
+				"name":"House of Elders", "speaker":{
+					"name":"Fazel Hadi Muslimyar",
+					"politicalParty":"Independent"},
+				"totalSeats":"102", "politicalGroups":
+					[
+						{"name":"Independent","seats":"102","ideology":"Independent"}
+					],
+				"votingSystem":"appointment", "nextElection":"2025"
+				}},
+			{"lowerHouse":
+				{
+				"name":"House of The People", "speaker":{
+					"name":"Mir Rahman Rahmani",
+					"politicalParty":"Independent"},
+				"totalSeats":"250", "politicalGroups":
+					[
+						{"name":"Independent","seats":"250","ideology":"Independent"}
+					],
+				"votingSystem":"Parliamentary Election", "nextElection":"2023"
+				}}
+			]}
+	},
+	{"name":"Åland Islands", 
+	"governmentType":"parliamentary autonomous region", 
+	"leaders":
+		{"exec":
+			{"name":"Peter Lindbäck",
+			"politicalParty":"Independent",
+			"nextElection":"None/Until retirement"},
+		"viceexec":
+			[
+				{"name":"Veronica Thörnroos", "politicalParty":"Åland Centre", "nextElection":"2024"}
+			]
+		}, 
+	"legislature":
+	{"name":"Ålands Lagting", "houses":
+		[
+		{"upperHouse":		
+			{
+			"name":"Ålands Lagting", "speaker":{
+				"name":"Roger Nordlund",
+				"politicalParty":"Åland Centre"},
+			"totalSeats":"30", "politicalGroups":
+				[
+					{"name":"Åland Centre","shorthand":"Centre","seats":"9","ideology":["Conservative liberalism","Agrarianism","Green liberalism"],"politicalPosition":"Centre to centre-right", "coalition":"Government"},
+					{"name":"Liberals for Åland","shorthand":"liberals","seats":"6","ideology":["Liberalism","Social liberalism"],"politicalPosition":"Centre", "coalition":"Opposition"},
+					{"name":"Moderate Coalition for Åland","shorthand":"Moderate Coalition","seats":"4","ideology":["Liberalism","Liberal conservatism"],"politicalPosition":"Centre-right", "coalition":"Government"},
+					{"name":"Non-aligned Coalition","shorthand":"Non-aligned Coalition","seats":"4","ideology":["Conservatism","Souverainism","Euroscepticism"],"politicalPosition":"Right-wing", "coalition":"Government"},
+					{"name":"Sustainable Initiative","shorthand":"Sustainable Initiative","seats":"2","ideology":["Green Politics"],"politicalPosition":"Centre-left", "coalition":"Government"},
+					{"name":"Åland Social Democrats","shorthand":"Social Democrats","seats":"3","ideology":["Social Democracy"],"politicalPosition":"Centre-left", "coalition":"Opposition"},
+					{"name":"Future of Åland","shorthand":"Future of Åland","seats":"1","ideology":["Social liberalism","Ålandic independence","Souverainism","Cultural conservatism","Pacifism"],"politicalPosition":"Centre to centre-right", "coalition":"Opposition"},
+					{"name":"Ålandic Democracy","shorthand":"Ålandic Democracy","seats":"1","ideology":["National conservatism","Anti-immigration","Populism"],"politicalPosition":"Right", "coalition":"Opposition"}
+				],
+			"votingSystem":"Proportional representation", "nextElection":"2023"
+			}}
+		]
+	}},
+	{"name":"Albania", 
+	"governmentType":"Parliamentary Constitutional Republic", 
+	"leaders":
+		{"exec":
+			{"name":"Ilir Meta",
+			"politicalParty":"Independent",
+			"nextElection":"2021"},
+		"viceexec":
+			[
+				{"name":"Edi Rama", "politicalParty":"Socialist Party of Albania", "nextElection":"2021"}
+			]
+		}, 
+	"legislature":
+	{"name":"Kuvendi", "houses":
+		[
+		{"upperHouse":		
+			{
+			"name":"Kuvendi", "speaker":{
+				"name":"Gramoz Ruçi",
+				"politicalParty":"Socialist Party "},
+			"totalSeats":"140", "politicalGroups":
+				[
+					{"name":"Socialist Party of Albania","shorthand":"Socialist Party","seats":"75","ideology":["Social democracy","Pro-Europeanism"],"politicalPosition":"Centre-left to left-wing", "coalition":"Government"},
+					{"name":"Party for Justice, Integration and Unity","shorthand":"Party for Justice, Integration and Unity","seats":"3","ideology":["Albanian nationalism","Social conservatism","Cham issue"],"politicalPosition":"Right-wing", "coalition":"Supporting"},
+					{"name":"Social Democratic Party of Albania","shorthand":"Social Democratic Party","seats":"1","ideology":["Social democracy"],"politicalPosition":"Centre-left", "coalition":"Supporting"},
+					{"name":"Democratic Party of Albania","shorthand":"Democratic Party","seats":"25","ideology":["Conservatism","Liberal conservatism","Pro-Europeanism"],"politicalPosition":"Centre-right", "coalition":"Opposition"},
+					{"name":"Socialist Movement for Integration","shorthand":"Socialist Movement for Integration","seats":"19","ideology":["Social democracy","Pro-Europeanism"],"politicalPosition":"Centre-left", "coalition":"Opposition"},
+					{"name":"Vacant","shorthand":"Vacant","seats":"18","ideology":["Vacant"],"politicalPosition":"Vacant", "coalition":"Vacant"}
+				],
+			"votingSystem":"Closed party-list proportional representation", "nextElection":"2021"
+			}}
+		]
+	}},
+	{"name":"", 
+	"governmentType":"", 
+	"leaders":
+		{"exec":
+			{"name":"",
+			"politicalParty":"",
+			"nextElection":""},
+		"viceexec":
+			[
+				{"name":"", "politicalParty":"", "nextElection":""}
+			]
+		}, 
+	"legislature":
+	{"name":"", "houses":
+		[
+		{"upperHouse":		
+			{
+			"name":"", "speaker":{
+				"name":"",
+				"politicalParty":""},
+			"totalSeats":"30", "politicalGroups":
+				[
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""}
+				],
+			"votingSystem":"", "nextElection":""
+			}}
+		]
+	}},
+	{"name":"", 
+	"governmentType":"", 
+	"leaders":
+		{"exec":
+			{"name":"",
+			"politicalParty":"",
+			"nextElection":""},
+		"viceexec":
+			[
+				{"name":"", "politicalParty":"", "nextElection":""}
+			]
+		}, 
+	"legislature":
+	{"name":"", "houses":
+		[
+		{"upperHouse":		
+			{
+			"name":"", "speaker":{
+				"name":"",
+				"politicalParty":""},
+			"totalSeats":"30", "politicalGroups":
+				[
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""},
+					{"name":"","shorthand":"","seats":"","ideology":["","",""],"politicalPosition":"", "coalition":""}
+				],
+			"votingSystem":"", "nextElection":""
+			}}
+		]
+	}}
+]

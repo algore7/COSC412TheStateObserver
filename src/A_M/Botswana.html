@@ -1,19 +1,155 @@
 <!DOCTYPE html>
 <html>
-<title></title>
+<title id='pTitle'></title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="default.css"> 
 <body>
 	<header>
 		<ul class='ulDefault'>
-			<li class='navBarList'><a href="home.html">Home</a></li>
-			<li class='navBarList'><a href="ctrListAM.html">Country List: A-M</a></li>
-			<li class='navBarList'><a href="ctrListNZ.html">Country List: N-Z</a></li>
-			<li class='navBarList'><a href="worldMap.html">World Map</a></li>
-			<li class='navBarList'><a href="about.html">About the Website</a></li>
+			<li class='navBarList'><a href="../home.html">Home</a></li>
+			<li class='navBarList'><a href="../ctrListAM.html">Country List: A-M</a></li>
+			<li class='navBarList'><a href="../ctrListNZ.html">Country List: N-Z</a></li>
+			<li class='navBarList'><a href="../worldMap.html">World Map</a></li>
+			<li class='navBarList'><a href="../about.html">About the Website</a></li>
 		</ul>
 	</header>
-	
+	<div>
+		<div class='ctrBody '>
+			<div class='ctrPgUnit'>
+				<header >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader'>Country Name: </h1>
+						<h1 id='pHeader' class='ctrPgHeader'></h1>
+					</span>
+				</header>
+                                <header >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader'>Official Country Name: </h1>
+						<h1 id='pOffHeader' class='ctrPgHeader'></h1>
+					</span>
+				</header>
+				<nav >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader'>Capital City: </h1>
+						<h1 id='pCaptial' class='ctrPgHeader'></h1>
+					</span>
+				</nav>
+				<div >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader'>Population: </h1>
+						<h1 id='pPop' class='ctrPgHeader'></h1>
+					</span>
+				</div>
+				<div >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader'>Region: </h1>
+						<h1 id='pRegion' class='ctrPgHeader'></h1>
+					</span>
+				</div>
+				<div >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader '>Subregion: </h1>
+						<h1 id='pSubRegion' class='ctrPgHeader' > </h1>
+					</span>
+				</div>
+				<img id='pFlag'  class='ctrPgFlag'></img>
+			
+				<div >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader '>Official currency: </h1>
+						<h1 id='pCurrName' class='ctrPgHeader' > </h1>
+						<h1 id='pCurrSym' class='ctrPgHeader' > </h1>
+					</span>
+				</div>
+				<div >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader '>Official languages: </h1>
+						<h1 id='pLang' class='ctrPgHeader' > </h1>
+					</span>
+				</div>
+				<div >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader '>Top Level Domain: </h1>
+						<h1 id='pTPDomain' class='ctrPgHeader' > </h1>
+					</span>
+				</div>
+				<div class='ctrPgFix'>
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader '>Timezone: </h1>
+						<h1 id='pTimezone' class='ctrPgHeader' > </h1>
+					</span>
+				</div>
+				<div >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader '>Regional BLOCS: </h1>
+						<h1 id='pBLOCS' class='ctrPgHeader' > </h1>
+					</span>
+				</div>
+			</div>
+			<div class='ctrPolit'>
+				<h1 class='ctrPgHeader '>Political information: </h1>
+					<div><h1 class='ctrPgHeader '>Government type: Unitary dominant-party parliamentary constitutional republic</h1></div>
+					<div><h1 class='ctrPgHeader '>President: Mokgweetsi Masisi</h1></div>
+					<div><h1 class='ctrPgHeader '>National Assembly Speaker: Phandu Skelemani</h1></div>
+					<div><h1 class='ctrPgHeader '>Legislature: National Assembly</h1></div>
+                <div >
+					<span class='ctrPgFix'>
+						<h1 class='ctrPgHeader '>Regional BLOCS: </h1>
+						<h1 id='pBLOCS' class='ctrPgHeader' > </h1>
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		<img id='test2' class='ctrPgFlag'></img>
+	</div>
+	<script>
+		function getName(){
+			const url = 'https://restcountries.eu/rest/v2/all'
+			const ctrNum = 29
+			var request = new XMLHttpRequest()
+			let ctrName = []
+			request.open('GET', url, true)
+			request.onload = function () {
+				var data = JSON.parse(this.response)
+				if (request.status >= 200 && request.status < 400) {
+					data.forEach((movie) => {
+						//console.log(data[0]['alpha2Code'])
+						document.getElementById("pHeader").innerHTML=data[ctrNum]['name'];
+						var x = document.getElementById("pFlag");
+						x.setAttribute("src", (data[ctrNum]['flag']));
+						x.setAttribute("width", "304");
+						x.setAttribute("height", "228");
+						x.setAttribute("alt", "The Pulpit Rock");
+						document.body.appendChild(x);
+						document.getElementById("pCaptial").innerHTML=data[ctrNum]['capital'];
+						var pop = data[ctrNum]['population'];
+						document.getElementById("pPop").innerHTML= numberWithCommas(pop);
+						document.getElementById("pRegion").innerHTML=data[ctrNum]['region'];
+						document.getElementById("pSubRegion").innerHTML=data[ctrNum]['subregion'];
+						document.getElementById("pTitle").innerHTML=data[ctrNum]['name'];
+						document.getElementById("pCurrName").innerHTML=data[ctrNum]['currencies'][0]['name'];
+						document.getElementById("pCurrSym").innerHTML=data[ctrNum]['currencies'][0]['symbol'];
+						document.getElementById("pLang").innerHTML=data[ctrNum]['languages'][0]['name']; 
+						document.getElementById("pTPDomain").innerHTML=data[ctrNum]['topLevelDomain'];
+						document.getElementById("pTimezone").innerHTML=data[ctrNum]['timezones'][0];
+						document.getElementById("pBLOCS").innerHTML=data[ctrNum]['regionalBlocs'][0]['acronym'];
+                                                document.getElementById("pOffHeader").innerHTML=data[ctrNum]['altSpellings'][1];
+						
+					}) 
+				} else {
+					console.log('error')
+				}
+			}
+			request.send()
+		}
+		
+		function numberWithCommas(x) {
+			return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+		}
+		
+		getName();
+	</script>
 </body>
 </html>

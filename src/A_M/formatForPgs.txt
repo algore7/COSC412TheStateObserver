@@ -80,20 +80,14 @@
 						<h1 id='pTimezone' class='ctrPgHeader' > </h1>
 					</span>
 				</div>
-				<div >
-					<span class='ctrPgFix'>
-						<h1 class='ctrPgHeader '>Regional BLOCS: </h1>
-						<h1 id='pBLOCS' class='ctrPgHeader' > </h1>
-					</span>
-				</div>
 			</div>
 			<div class='ctrPolit'>
 				<h1 class='ctrPgHeader '>Political information: </h1>
-					<div><h1 class='ctrPgHeader '>Government type:Ethnofederalist parliamentary constitutional republic </h1></div>
-					<div><h1 class='ctrPgHeader '>Prime Minister:Abiy Ahmed Ali </h1></div>
-					<div><h1 class='ctrPgHeader '>Legislature:Federal Parliamentary Assembly </h1></div>
-					<div><h1 class='ctrPgHeader '>Upper House:House of Federation </h1></div>
-					<div><h1 class='ctrPgHeader '>Lower House:House of Peoples' Representatives </h1></div>
+					<div><h1 class='ctrPgHeader '>Government type: </h1></div>
+					<div><h1 class='ctrPgHeader '>President: </h1></div>
+					<div><h1 class='ctrPgHeader '>Legislature: </h1></div>
+					<div><h1 class='ctrPgHeader '>Upper House: </h1></div>
+					<div><h1 class='ctrPgHeader '>Lower House: </h1></div>
                 <div >
 					<span class='ctrPgFix'>
 						<h1 class='ctrPgHeader '>Regional BLOCS: </h1>
@@ -108,7 +102,7 @@
 	<script>
 		function getName(){
 			const url = 'https://restcountries.eu/rest/v2/all'
-			const ctrNum = 72
+			const ctrNum = 0
 			var request = new XMLHttpRequest()
 			let ctrName = []
 			request.open('GET', url, true)
