@@ -155,13 +155,13 @@ body{
 	background-color: black;
 	border: solid;
 	border-color: red;
-	
 	overflow:auto;
 	margin-top:22%;
 }
 
-.ctrBody{
-	
+.hpTweet{
+	overflow:auto;
+	margin-left:40%;
 }
 
 .ctrBottom{
