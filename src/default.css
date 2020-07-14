@@ -118,3 +118,56 @@ body{
 	padding: 5px;
 	font-size: 30px;
 }
+
+.ctrPgHeader{
+	font-size: 20px;
+	
+	text-decoration: underline;
+	color: white;
+	padding: 6px;
+	
+}
+
+.ctrPgIntr{
+	font-size: 20px;
+	
+	text-decoration: underline;
+	color: red;
+	padding: 6px;
+	
+}
+
+.ctrIndent{
+	text-indent: 50px;
+}
+
+.ctrPgFlag{
+	width:30%;
+	height: auto;
+	overflow: auto;
+	display:inline-block;
+	float: right;
+	
+	
+}
+
+.ctrPgUnit{
+	background-color: black;
+	border: solid;
+	border-color: red;
+	
+	overflow:auto;
+	margin-top:22%;
+}
+
+.ctrBody{
+	
+}
+
+.ctrBottom{
+	width:50%;
+}
+
+.ctrPgFix{
+	float:left;
+}
