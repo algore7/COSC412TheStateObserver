@@ -18,11 +18,11 @@
 }
 
 .navBarList a:hover {
-	background-color: red;
+	background-color: blue;
 }
 
 .navBarList a.active {
-	background-color: red;
+	background-color: blue;
 	color: white;
 }
 
@@ -33,7 +33,7 @@ body{
 .welcome{
 	background-color: black;
 	border: solid;
-	border-color: red;
+	border-color: blue;
 	padding: 5px;
 	position: fixed;
 	top: 15%;
@@ -57,7 +57,7 @@ body{
 .ctrList{
 	background-color: black;
 	border: solid;
-	border-color: red;
+	border-color: blue;
 	padding: 5px;
 	position: absolute;
 	float:left;
@@ -88,7 +88,7 @@ body{
 .abtTop{
 	background-color: black;
 	border: solid;
-	border-color: red;
+	border-color: blue;
 	padding: 5px;
 	margin-top: 3%;
 	margin-right: 40%;
@@ -98,7 +98,7 @@ body{
 .abtMid{
 	background-color: black;
 	border: solid;
-	border-color: red;
+	border-color: blue;
 	padding: 5px;
 	margin-top: 3%;
 	margin-right: auto;
@@ -130,10 +130,17 @@ body{
 
 .ctrPgIntr{
 	font-size: 20px;
-	
 	text-decoration: underline;
-	color: red;
+	color: white;
 	padding: 6px;
+	
+}
+
+.ctrPgIntrHead{
+	font-size: 23px;
+	color: white;
+	padding: 6px;
+	font-style:bold;
 	
 }
 
@@ -154,7 +161,7 @@ body{
 .ctrPgUnit{
 	background-color: black;
 	border: solid;
-	border-color: red;
+	border-color: blue;
 	overflow:auto;
 	margin-top:22%;
 }
